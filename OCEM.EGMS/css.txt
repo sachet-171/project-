@@ -1,0 +1,45 @@
+
+
+/*
+Theme Name: My first project
+Theme URI:http://localhost:8080/wordpress
+Version :1.0
+Description:My First Project
+Auther:Antima Gupta
+Auther URL:antimagupta.com.np
+*/
+
+
+/*yesma nav ko css rakhni*/
+
+.my-nav{
+    display:flex;
+}
+
+.my-nav li{
+    padding: 15px;
+}
+
+ul{
+    list-style:none;;
+}
+
+*,body,html{
+    margin:0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo-section{
+    height:75px;
+    width:75px;
+}
+
+.logo-section>a>img{
+    height:100px;
+    width:100px;
+    object-fit:contain;
+}
